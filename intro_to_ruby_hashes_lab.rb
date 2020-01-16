@@ -9,7 +9,9 @@ def monopoly_with_second_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  a = base_hash[:railroads] = {:pieces => 4}
+  a = base_hash[:railroads]
+  b = :pieces => 4
+  a = b
   return {base_hash => a}
 end
 binding.pry
