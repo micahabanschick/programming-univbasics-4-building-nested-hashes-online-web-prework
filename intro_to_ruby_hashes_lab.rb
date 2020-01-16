@@ -12,7 +12,7 @@ def monopoly_with_second_tier
   a = base_hash[:railroads] = {:pieces => 4}
   return a
 end
-binding.pry
+#binding.pry
 def monopoly_with_third_tier
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
