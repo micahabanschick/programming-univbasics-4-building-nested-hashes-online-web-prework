@@ -11,7 +11,7 @@ def monopoly_with_third_tier
     railroads: {
                   :pieces => 4,
                   rent_in_dollars: {
-                    a: 2,
+                    one_piece_owned: 25,
                     b: 3,
                     c: 4,
                     d: 5
