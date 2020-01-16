@@ -10,7 +10,7 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   a = base_hash[:railroads] = {:pieces => 4}
-  return {base_hash: a}
+  return {base_hash => a}
 end
 binding.pry
 def monopoly_with_third_tier
