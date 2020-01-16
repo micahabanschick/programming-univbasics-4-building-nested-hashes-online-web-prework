@@ -7,7 +7,17 @@ def monopoly_with_second_tier
 end
 #binding.pry
 def monopoly_with_third_tier
-  {railroads: {:pieces => 4,rent_in_dollars: 3}}
+  {
+    railroads: {
+                  :pieces => 4,
+                  rent_in_dollars: {
+                    a: 2,
+                    b: 3,
+                    c: 4,
+                    d: 5
+                  }
+    }
+  }
 end
 
 def monopoly_with_fourth_tier
